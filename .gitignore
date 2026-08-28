@@ -1,0 +1,15 @@
+# 排除独立项目目录（tummytuck 是独立的 git 仓库，不属于 microtia 系列）
+tummytuck/
+
+# Windows 元数据残留
+*.png:Zone.Identifier
+*:Zone.Identifier
+
+# 本地备份 / 临时文件
+*.bak
+*.tmp
+.DS_Store
+
+# Python 缓存
+__pycache__/
+*.pyc
